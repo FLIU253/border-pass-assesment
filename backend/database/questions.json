@@ -1,0 +1,35 @@
+[{
+    "question": "What is your favorite color?",
+    "questionType": "textInput",
+    "options": [],
+    "mandatory": true,
+    "id": 1
+  },
+  {
+    "question": "Are you located in Toronto?",
+    "questionType": "boolean",
+    "options": [],
+    "mandatory": true,
+    "id": 2
+  },
+  {
+    "question": "If not in Toronto, which city are you located?",
+    "questionType": "dropdown",
+    "options": ["Vancouver", "Montreal", "Ottawa", "Kitchener"],
+    "mandatory": false,
+    "id": 3
+  },
+  {
+    "question": "Choose a sport",
+    "questionType": "dropdown",
+    "options": ["Basketball", "Soccer", "Football", "Hockey"],
+    "mandatory": true,
+    "id": 4
+  }, {
+    "question": "How old are you",
+    "questionType": "numberInput",
+    "options": [],
+    "mandatory": false,
+    "id": 5
+  }
+]
